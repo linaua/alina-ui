@@ -12,9 +12,9 @@ export const Interactive = () => {
   const [show, setShow] = useState(false);
   return (
     <div style={{ height: '150px' }}>
-      <Button onClick={() => setShow(true)}>Показати сповіщення</Button>
+      <Button onClick={() => setShow(true)}>show message</Button>
       <Toast 
-        message="Дані успішно збережено!" 
+        message="Data saved successfully!" 
         type="success" 
         isVisible={show} 
         onClose={() => setShow(false)} 

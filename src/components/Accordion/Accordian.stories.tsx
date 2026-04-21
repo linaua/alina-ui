@@ -12,7 +12,7 @@ type Story = StoryObj<typeof Accordion>;
 
 export const Default: Story = {
   args: {
-    title: 'Що таке Alina UI?',
-    children: 'Це сучасна дизайн-система, побудована на React, TypeScript та Framer Motion.',
+    title: 'What is Alina UI?',
+    children: 'It modern design-system, build on React, TypeScript and Framer Motion.',
   },
 };

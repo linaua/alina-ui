@@ -13,7 +13,7 @@ type Story = StoryObj<typeof Tooltip>;
 
 export const Default: Story = {
   args: {
-    text: 'Це підказка рівня Senior!',
-    children: <Button>Наведи на мене</Button>,
+    text: 'this is a level hint Senior!',
+    children: <Button>Click at me</Button>,
   },
 };

@@ -12,11 +12,11 @@ type Story = StoryObj<typeof Dropdown>;
 
 export const Default: Story = {
   args: {
-    trigger: <Button variant="outline">Меню налаштувань ⚙️</Button>,
+    trigger: <Button variant="outline">Menu settings ⚙️</Button>,
     options: [
-      { id: '1', label: 'Редагувати профіль', onClick: () => console.log('Edit') },
-      { id: '2', label: 'Змінити пароль', onClick: () => console.log('Password') },
-      { id: '3', label: 'Вийти', onClick: () => console.log('Exit') },
+      { id: '1', label: 'Edit profile', onClick: () => console.log('Edit') },
+      { id: '2', label: 'Change password', onClick: () => console.log('Password') },
+      { id: '3', label: 'Exit', onClick: () => console.log('Exit') },
     ],
   },
 };

@@ -16,7 +16,7 @@ export const Interactive = () => {
     <Checkbox 
       checked={isChecked} 
       onChange={setIsChecked} 
-      label="Я погоджуюсь з умовами використання" 
+      label="I agree to the terms of use" 
     />
   );
 };

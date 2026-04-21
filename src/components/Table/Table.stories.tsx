@@ -20,9 +20,9 @@ type Story = StoryObj<typeof Table<User>>;
 export const Default: Story = {
   args: {
     columns: [
-      { key: 'name', header: 'Ім’я', width: '200px' },
-      { key: 'role', header: 'Роль' },
-      { key: 'status', header: 'Статус' },
+      { key: 'name', header: 'Name', width: '200px' },
+      { key: 'role', header: 'Role' },
+      { key: 'status', header: 'Status' },
     ],
     data: [
       { id: 1, name: 'Alina Gordiy', role: 'Frontend Developer', status: 'Active' },

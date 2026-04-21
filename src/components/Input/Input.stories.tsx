@@ -8,16 +8,16 @@ export default {
 
 export const Default: StoryObj<typeof Input> = {
   args: {
-    label: 'Електронна пошта',
+    label: 'E-mail',
     placeholder: 'example@mail.com',
-    helperText: 'Ми ніколи не ділимося вашою поштою.',
+    helperText: 'We never share your mail.',
   },
 };
 
 export const WithError: StoryObj<typeof Input> = {
   args: {
-    label: 'Пароль',
-    error: 'Пароль занадто короткий',
+    label: 'Password',
+    error: 'Password is too short',
     type: 'password',
   },
 };
