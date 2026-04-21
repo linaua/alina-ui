@@ -1,7 +1,0 @@
-import{n as e}from"./chunk-zsgVPwQN.js";import{t}from"./react-C184PLS3.js";import{t as n}from"./jsx-runtime-B5xpDIur.js";var r,i,a=e((()=>{t(),r=n(),i=({src:e,alt:t,size:n=`md`,fallback:i})=>{let a={sm:32,md:48,lg:64}[n];return(0,r.jsx)(`div`,{style:{width:a,height:a,borderRadius:`50%`,backgroundColor:`var(--color-primary)`,display:`flex`,alignItems:`center`,justifyContent:`center`,overflow:`hidden`,color:`white`,fontWeight:`bold`,fontSize:a/2.5},children:e?(0,r.jsx)(`img`,{src:e,alt:t,style:{width:`100%`,height:`100%`,objectFit:`cover`}}):i})},i.__docgenInfo={description:``,methods:[],displayName:`Avatar`,props:{src:{required:!1,tsType:{name:`string`},description:``},alt:{required:!1,tsType:{name:`string`},description:``},size:{required:!1,tsType:{name:`union`,raw:`'sm' | 'md' | 'lg'`,elements:[{name:`literal`,value:`'sm'`},{name:`literal`,value:`'md'`},{name:`literal`,value:`'lg'`}]},description:``,defaultValue:{value:`'md'`,computed:!1}},fallback:{required:!0,tsType:{name:`string`},description:``}}}})),o,s,c;e((()=>{a(),o={title:`Components/Avatar`,component:i},s={args:{size:`md`,fallback:`A`}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
-  args: {
-    size: 'md',
-    // Обов'язково в лапках: 'sm', 'md' або 'lg'
-    fallback: 'A'
-  }
-}`,...s.parameters?.docs?.source}}},c=[`Default`]}))();export{s as Default,c as __namedExportsOrder,o as default};
