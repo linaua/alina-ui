@@ -1,0 +1,12 @@
+import{n as e}from"./chunk-zsgVPwQN.js";import{t}from"./react-C184PLS3.js";import{t as n}from"./jsx-runtime-B5xpDIur.js";var r,i,a,o=e((()=>{t(),r=n(),i={default:{bg:`#e2e8f0`,color:`#334155`},success:{bg:`#d1fae5`,color:`#065f46`},warning:{bg:`#fef3c7`,color:`#92400e`},error:{bg:`#fee2e2`,color:`#991b1b`},info:{bg:`#dbeafe`,color:`#1e40af`}},a=({variant:e=`default`,children:t,dot:n=!1})=>{let{bg:a,color:o}=i[e];return(0,r.jsxs)(`span`,{style:{display:`inline-flex`,alignItems:`center`,gap:`6px`,padding:`3px 10px`,borderRadius:`9999px`,fontSize:`0.75rem`,fontWeight:600,backgroundColor:a,color:o},children:[n&&(0,r.jsx)(`span`,{style:{width:6,height:6,borderRadius:`50%`,backgroundColor:o}}),t]})},a.__docgenInfo={description:``,methods:[],displayName:`Badge`,props:{variant:{required:!1,tsType:{name:`union`,raw:`'default' | 'success' | 'warning' | 'error' | 'info'`,elements:[{name:`literal`,value:`'default'`},{name:`literal`,value:`'success'`},{name:`literal`,value:`'warning'`},{name:`literal`,value:`'error'`},{name:`literal`,value:`'info'`}]},description:``,defaultValue:{value:`'default'`,computed:!1}},children:{required:!0,tsType:{name:`ReactReactNode`,raw:`React.ReactNode`},description:``},dot:{required:!1,tsType:{name:`boolean`},description:``,defaultValue:{value:`false`,computed:!1}}}}})),s,c,l,u;e((()=>{o(),s=n(),c={title:`Components/Badge`,component:a},l={render:()=>(0,s.jsxs)(`div`,{style:{display:`flex`,gap:`10px`},children:[(0,s.jsx)(a,{variant:`default`,children:`Default`}),(0,s.jsx)(a,{variant:`success`,children:`Success`}),(0,s.jsx)(a,{variant:`error`,children:`Error`}),(0,s.jsx)(a,{variant:`warning`,children:`Warning`}),(0,s.jsx)(a,{variant:`info`,children:`Info`})]})},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+  render: () => <div style={{
+    display: 'flex',
+    gap: '10px'
+  }}>
+      <Badge variant="default">Default</Badge>
+      <Badge variant="success">Success</Badge>
+      <Badge variant="error">Error</Badge>
+      <Badge variant="warning">Warning</Badge>
+      <Badge variant="info">Info</Badge>
+    </div>
+}`,...l.parameters?.docs?.source}}},u=[`AllVariants`]}))();export{l as AllVariants,u as __namedExportsOrder,c as default};
